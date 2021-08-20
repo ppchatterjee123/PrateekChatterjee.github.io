@@ -17,4 +17,19 @@
         overlayClass          :   'animsition-overlay-slide',
         overlayParentElement  :   'body'
       });
+
+
+
+
+
+
+
+
+
+
     });
+
+
+                    
+           
+              
