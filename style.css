@@ -4,8 +4,12 @@ body {
   font-family: 'Inter', sans-serif;
 padding: 0px;
 
+
 }
 
+
+
+  
 .iconabout:hover{
   opacity: 0.3;
 }
@@ -39,7 +43,6 @@ padding: 0px;
   font-weight: 500;
   font-size: 20px !important;
 }
-
 
 
 
