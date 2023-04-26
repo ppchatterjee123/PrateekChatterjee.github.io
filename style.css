@@ -66,6 +66,33 @@ border-style: none !important;
 }
 
 
+.button11:hover {
+  background: #white !important;
+  color: White;
+  border-color: black !important;
+  border-style: black !important;
+  
+  }
+  
+
+
+
+
+  /* tooltip ----------
+
+  /* tooltip ---------------------*/ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 @font-face {font-family: "Johnston ITC Std"; src: url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.eot"); src: url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.woff") format("woff"), url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2288c373896969c092375b74ca109401.svg#Johnston ITC Std") format("svg"); }
