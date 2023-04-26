@@ -32,7 +32,19 @@
 
 <script>
 
+const $icon = document.querySelector('.icon');
+const $arrow = document.querySelector('.arrow');
 
+$icon.onclick = () => {
+  $arrow.animate([
+    {left: '0'},
+    {left: '10px'},
+    {left: '0'}
+  ],{
+    duration: 700,
+    iterations: Infinity
+  });
+}
   
 </script>
 
@@ -88,28 +100,36 @@
 <div class="row" style="margin-top:20px">
 <div class="col-md-8" id="area1" style=" z-index: 35">
 
-    <span style=" color: #333333; font-size: 20px; font-weight:400; list-style-type: square; "> I am passionate about designing experiences that are beautiful, meaningful and which people enjoy using. </br> </br>
-      I specialize in Design Systems, Qualitative Research, Interaction Design & Front-End Development of Mobile & Web applications. I enjoy designing & developing Games & Virtual Reality applications as well. </br>
+    <span style=" color: #333333; font-size: 20px; font-weight:400; list-style-type: square; "> I am passionate about designing experiences that are 
+      accessible, beautiful, meaningful and which people enjoy using. </br> </br>
+
+     <!--  <a href="images\res.pdf" style="color: #04429F;   font-weight: 600"> View Resume  <i class="arrow right" style="top: 2px;"></i> </a>-->
+
+
+      I specialize in Design Systems, Qualitative Research, Interaction Design & Front-End Development of Mobile & Web applications. 
+      I enjoy designing & developing Games & Virtual Reality applications as well.
+
+     
     </span>
    <div style="padding:25px 25px 25px 25px">
   </div> 
  
-  <span > <a  href="images\res.pdf" target="_blank" download="res.pdf" class="iconabout">  
- <Button class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:black; margin:0px 16px 0px 0px; padding:4px 16px 4px 16px;background-color:black;">  Resume  </Button>
-     <!-- <img  src="images/resume.png" style="width:44px; height:44px;margin:0px 20px 0px 0px">-->
+<span > <a  href="images\res.pdf" target="_blank" download="res.pdf" class="iconabout">  
+ <Button class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:black; margin:0px 8px 0px 0px; padding:4px 16px 4px 16px;background-color:black;">  Resume  </Button>
+     <!-- <img  src="images/resume.png" style="width:44px; height:44px;margin:0px 20px 0px 0px"> -->
     </a>
  
     </span>
   
     <span><a  href="https://www.linkedin.com/in/prateek-chatterjee-25a0a2140/" target="_blank" class="iconabout"><img src="images\Linked.png" style="width:44px; height:44px;margin:0px 16px 0px 0px"></a></span>
    
-    <span><a  href="https://github.com/ppchatterjee123" target="_blank" class="iconabout"><img src="images\git.png"  style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span>
+     <!--  <span><a  href="https://github.com/ppchatterjee123" target="_blank" class="iconabout"><img src="images\git.png"  style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span>
 
     <span><a  href="https://dribbble.com/ppchatterjee" target="_blank" class="iconabout"> <img src="images\dribble.png" style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span> 
   <span><a  href="https://www.youtube.com/c/CharacterDatabase/" target="_blank" class="iconabout"> <img src="images\pngegg.png" style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span>
   <span><a  href="https://medium.com/@prateekrise92" target="_blank" class="iconabout"> <img src="images\Medium.webp" style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span>
 
-
+     -->
   <span>  <div style="font-size:20px; z-index:400; color: #333333; font-weight:400;">
   </a>
 
