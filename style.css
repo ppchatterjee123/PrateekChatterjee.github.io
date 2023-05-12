@@ -39,8 +39,8 @@ padding: 0px;
 
 
 .active, .nav-item nav-link{
-  color: #084FAA !important;
-  font-weight: 500;
+  color: black !important;
+  font-weight: 600;
   font-size: 20px !important;
 }
 
@@ -68,7 +68,7 @@ border-style: none !important;
 
 .button11:hover {
   color: rgb(161, 161, 161) !important;
-  background-color: rgb(145, 145, 145) !important
+  background-color: black !important;
   border-color: white !important;
   border-style: rgb(145, 145, 145) !important;
   
