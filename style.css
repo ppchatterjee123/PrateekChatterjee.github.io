@@ -67,8 +67,8 @@ border-style: none !important;
 
 
 .button11:hover {
-  background: white !important;
-  color: White;
+  color: rgb(161, 161, 161) !important;
+  background-color: black !important;
   border-color: rgb(161, 161, 161) !important;
   border-style: rgb(145, 145, 145) !important;
   
