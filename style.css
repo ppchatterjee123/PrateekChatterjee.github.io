@@ -67,16 +67,16 @@ border-style: none !important;
 
 
 .button11:hover {
-  background: #white !important;
+  background: white !important;
   color: White;
-  border-color: black !important;
-  border-style: black !important;
+  border-color: rgb(161, 161, 161) !important;
+  border-style: rgb(145, 145, 145) !important;
   
   }
   
 
 
-
+  
 
   /* hover ---------------------*/ 
 
@@ -124,7 +124,12 @@ border-style: none !important;
   /* tooltip ---------------------*/ 
 
 
+#main2{
 
+  height: 600 !important;
+  margin: 0 !important;
+ padding: none !important;
+}
 
 
 

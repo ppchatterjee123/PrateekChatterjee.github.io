@@ -65,6 +65,9 @@ $icon.onclick = () => {
 
 
 
+
+
+
 <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=LMJjGwjcivOG5Va06K2MaCaKhKIfrZbQvzceYBnZ8uFYdlXRojVeTE9Ma7bD"></script></span>
 
 
@@ -104,15 +107,43 @@ $icon.onclick = () => {
 </nav>
 </div>
 </div>
+
 <div class="animsition">
-  <div class="container-fluid" style="background: white;" >
-<div class="container" style="padding:60px 0px 40px 0px; z-index: 30"id="new">
-  
+
+
+ 
+  <div class="container-fluid" style="background: white;"   id="your-element-selector"  >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    
+    <script>
+      VANTA.NET({
+        el: "#your-element-selector",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 660.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x264baa,
+        backgroundColor: 0x181818,
+        points: 14.00,
+        maxDistance: 18.00,
+        spacing: 24.00
+      })
+      </script>
+      
+      
+      
+
+<div class="container" style="padding:60px 0px 60px 0px; z-index: 30"id="new">
+
 <div class="row">
 <div class="col-md-12">
-  <span style=" color: #333333; font-size:42px !important; font-weight:700 !important"> Hi, I'm Prateek, </span>
+  <span style=" color: white; font-size:42px !important; font-weight:700 !important"> Hi, I'm Prateek, </span>
        </br>
-  <span style=" color: #333333 !important; font-size: 42px !important; font-weight:700 !important"> a <span style=" color: #084FAA; font-size: 42px; font-weight:700"> Senior Product Designer </span> at 
+  <span style=" color: white !important; font-size: 42px !important; font-weight:700 !important"> a <span style=" color: #0A60D1; font-size: 42px; font-weight:700"> Senior Product Designer </span> at 
   <!--<span style="padding: 0px 0px 0px 5px; margin-bottom: -50px !important;"><img src="images/CGI_logo.svg">  </span> --><span style="color:#E31937;  font-family: Johnston ITC Std !important; font-size: 52px; font-weight:700" >  CGI </span> </span>
 </div>
 </div>
@@ -121,7 +152,7 @@ $icon.onclick = () => {
 <div class="row" style="margin-top:20px">
 <div class="col-md-8" id="area1" style=" z-index: 35">
 
-    <span style=" color: #333333; font-size: 20px; font-weight:400; list-style-type: square; "> I am passionate about designing experiences that are 
+    <span style=" color: white; font-size: 20px; font-weight:400; list-style-type: square; "> I am passionate about designing experiences that are 
       accessible, beautiful, meaningful and which people enjoy using. </br> </br>
 
      <!--  <a href="images\res.pdf" style="color: #04429F;   font-weight: 600"> View Resume  <i class="arrow right" style="top: 2px;"></i> </a>-->
@@ -137,13 +168,13 @@ $icon.onclick = () => {
   </div> 
  
 <span > <a  href="images\res.pdf" target="_blank" download="res.pdf" class="iconabout">  
- <Button class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:black; margin:0px 8px 0px 0px; padding:4px 16px 4px 16px;background-color:black;">  Resume  </Button>
+ <Button class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:white; margin:0px 8px 0px 0px; padding:4px 16px 4px 16px;background-color: #181818 !important;">  Resume  </Button>
      <!-- <img  src="images/resume.png" style="width:44px; height:44px;margin:0px 20px 0px 0px"> -->
     </a>
  
     </span>
   
-    <span><a  href="https://www.linkedin.com/in/prateek-chatterjee-25a0a2140/" target="_blank" class="iconabout"><img src="images\Linked.png" style="width:44px; height:44px;margin:0px 16px 0px 0px"></a></span>
+    <span><a  href="https://www.linkedin.com/in/prateek-chatterjee-25a0a2140/" target="_blank" class="iconabout"><img src="images/in.png" style="width:44px; height:44px;margin:0px 16px 0px 0px"></a></span>
    
      <!--  <span><a  href="https://github.com/ppchatterjee123" target="_blank" class="iconabout"><img src="images\git.png"  style="width:44px; height:44px; margin:0px 16px 0px 0px"></a></span>
 
@@ -162,7 +193,7 @@ $icon.onclick = () => {
 </div>
 
 
-<div class="col-md-4 d-none d-lg-block" style="z-index: 200;">
+ <div class="col-md-4 d-none d-lg-block" style="z-index: 200;">
   <img class=".hidden-md-down" src="images/landing.svg" style="
 position: relative;
     left: 0;
@@ -170,7 +201,8 @@ position: relative;
 margin: -140px 0px 0px 30px;
   width:125%;
   height: 125%;">
-</div>
+</div> 
+
 <!--  <img class=".hidden-md-down" src="images/landing.svg" style="
 position: relative;
     left: 0;
@@ -186,13 +218,10 @@ margin: -170px 0px 0px 30px;
 </div>
 
 
-<div  style="padding:20px 20px 20px 20px; background: white;">
-</div> 
 
 
 
-
-  <div class="container-fluid" style="background: #f8f8f8 !important; padding:40px 0px 40px 0px; z-index:500!important">
+  <div class="container-fluid" style="background:white !important; padding:40px 0px 40px 0px; z-index:500!important">
   <div class="container" >
     <div class="row">
 
@@ -548,7 +577,7 @@ margin: -170px 0px 0px 30px;
 
 
 
-
+<!-- 
 
 <div style="z-index: -1;"> <ul class="circles">
                <li></li>
@@ -562,7 +591,7 @@ margin: -170px 0px 0px 30px;
                <li></li>
                <li></li>
     </ul> </div>
-
+-->
 
 </div>
 
