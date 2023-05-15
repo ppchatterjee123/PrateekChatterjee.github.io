@@ -117,12 +117,46 @@ $icon.onclick = () => {
 
  
   <div class="container-fluid" style="background: white;"   id="your-element-selector"  >
-    
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
     <script>
-      VANTA.NET({
+      VANTA.HALO({
+        el: "#your-element-selector",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 720.00,
+        minWidth: 200.00,
+        baseColor: 0x171766,
+        backgroundColor: 0xc0c0c,
+        amplitudeFactor: 1.00,
+        xOffset: 0.25,
+        yOffset: 0.06,
+        size: 1.40
+      })
+      </script>
+
+    <!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+    <script>
+      VANTA.CELLS({
+        el: "#your-element-selector",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 650.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x0,
+        color2: 0x1c2f6e
+      })
+      </script>-->
+   <!--  <script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+     VANTA.NET({
         el: "#your-element-selector",
         mouseControls: true,
         touchControls: true,
@@ -133,19 +167,19 @@ $icon.onclick = () => {
         scaleMobile: 1.00,
         color: 0x264baa,
         backgroundColor: 0x0,
-        points: 14.00,
-        maxDistance: 18.00,
+        points: 22.00,
+        maxDistance: 22.00,
         spacing: 24.00
       })
       </script>
-      
+       -->
       
       
 
 <div class="container" style="padding:60px 0px 60px 0px; z-index: 30"id="new">
 
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-8">
   
   <span style=" color: white; font-size:42px !important; font-weight:700 !important"> Hi, I'm Prateek, </span>
        </br>
@@ -156,7 +190,7 @@ $icon.onclick = () => {
 
 
 <div class="row" style="margin-top:20px">
-<div class="col-md-12" id="area1" style=" z-index: 35">
+<div class="col-md-8" id="area1" style=" z-index: 35">
 
     <span style=" color: white; font-size: 20px; font-weight:400; list-style-type: square; "> I have 5+ years of experience helping
       clients across telecom, federal gov., healthcare, automotive services and consulting industries and I'm passionate about designing experiences that are 
