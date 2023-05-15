@@ -3,8 +3,6 @@ body {
   font-size: 22px;
   font-family: 'Inter', sans-serif;
 padding: 0px;
-
-
 }
 
 
@@ -39,7 +37,7 @@ padding: 0px;
 
 
 .active, .nav-item nav-link{
-  color: black !important;
+  color: #084FAA !important;
   font-weight: 600;
   font-size: 20px !important;
 }
