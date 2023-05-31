@@ -48,7 +48,39 @@
 
 
 
+
+    <script>
+      $(document).ready(function() {
+      //Preloader
+      $(window).on("load", function() {
+      preloaderFadeOutTime = 10;
+      function hidePreloader() {
+      var preloader = $('.spinner-wrapper');
+      preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+      });
+      });</script>
+    
+
+   
 <body>
+
+  <div class="spinner-wrapper" role="status">  
+    <div class="pl">
+      <div class="pl__outer-ring"></div>
+      <div class="pl__inner-ring"></div>
+      <div class="pl__track-cover"></div>
+      <div class="pl__text"> 10 sec </div>
+      <div class="pl__ball">
+        <div class="pl__ball-texture"></div>
+        <div class="pl__ball-outer-shadow"></div>
+        <div class="pl__ball-inner-shadow"></div>
+        <div class="pl__ball-side-shadows"></div>
+      </div>
+    </div>
+    <span class="sr-only">Loading...</span>
+  </div>
 
   <div class="container" style="padding:10px 10px 10px 10px; ">
  </div>
@@ -94,7 +126,7 @@
 <div class="container">
 
   <div class="row pl-0 pr-0" >  
-  <div class="col-md-12 pl-0 pr-0"> <img src="webdesign/top.png" style="width:100%; border-radius: 16px;">
+  <div class="col-md-12 pl-0 pr-0"> <img src="Webdesign/top.png" style="width:100%; border-radius: 16px;">
   </div>
 
 </div>
