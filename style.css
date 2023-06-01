@@ -25,6 +25,23 @@ padding: 0px;
 
 
 
+.btn-primary {
+  color: white;
+  background-color: #084FAA;
+  border-color: #084FAA;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #226fd3;
+  border-color: #226fd3;
+}
+
+
+
+
+
+
 
 #newnav{
   color: blue !important;
