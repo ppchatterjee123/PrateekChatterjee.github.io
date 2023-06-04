@@ -1,4 +1,4 @@
-
+/* your code here 
   $(document).ready(function() {
   //Preloader
   $(window).on("load", function() {
@@ -10,3 +10,4 @@
   hidePreloader();
   });
   });
+  */

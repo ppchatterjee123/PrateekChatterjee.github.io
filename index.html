@@ -11,7 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
    <script src="new.js"></script>
-   
+  
+   <link href="style1.scss" rel="stylesheet/scss" type="text/css">
+
    <link rel="import" href="content.html">
 </head>
 
@@ -36,27 +38,19 @@
 </span>
 
 
+
 <body style="animation: fadeInAnimation ease 0.7s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;  transition-property: font-size;
   transition-duration: 4s;
   transition-delay: 2s;">
 
-  <div class="spinner-wrapper" role="status">  
-    <div class="pl">
-      <div class="pl__outer-ring"></div>
-      <div class="pl__inner-ring"></div>
-      <div class="pl__track-cover"></div>
-      <div class="pl__text">  </div>
-      <div class="pl__ball">
-        <div class="pl__ball-texture"></div>
-        <div class="pl__ball-outer-shadow"></div>
-        <div class="pl__ball-inner-shadow"></div>
-        <div class="pl__ball-side-shadows"></div>
-      </div>
-    </div>
-    <span class="sr-only">Loading...</span>
-  </div>
+
+
+
+
+
+
 
 
 
@@ -97,7 +91,8 @@ animation-fill-mode: forwards;  transition-property: font-size;
 <div class="container-fluid fixed-top shadow-sm p-3 mb-5 bg-white rounded"  style="background: white; padding-top:20px; height: 90px; " >
   
   <div class="container" >
-    
+    <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+
   <nav id="newnav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" >
   <a class="navbar-brand d-none d-sm-block ms-auto" href="index.html" style="color:blue;font-size: 16px !important">  <img src="images/logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,6 +103,7 @@ animation-fill-mode: forwards;  transition-property: font-size;
       <a class="nav-item nav-link active" href="index.html" style="font-weight: 600; font-size: 16px !important; padding:10px 10px 10px 10px;"> MY WORK <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="About.html" style=" font-size: 16px !important; padding:10px 10px 10px 10px"> ABOUT </a>
       <a class="nav-item nav-link" href="play.html" style=" font-size: 16px !important; padding:10px 10px 10px 10px"> PLAY </a>
+
 
     </div>
   </div>
@@ -125,10 +121,14 @@ animation-fill-mode: forwards;  transition-property: font-size;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;">
-<div class="container" style="padding:60px 0px 60px 0px; z-index: 30; "id="new">
 
+
+<div class="container" style="padding:70px 0px 70px 0px; z-index: 30; "id="new">
+
+  
 
 <div class="row" >
+
 <div class="col-md-7" id="area1" style=" z-index: 35">
 
   <span style=" color: #333333; font-size:42px !important; font-weight:700 !important"> Hi, I'm Prateek, </span>
@@ -138,13 +138,12 @@ background-position: center;">
  
 <div style="padding: 10px;"></div>
 
-    <span style=" color: #333333; font-size: 20px; font-weight:400; list-style-type: square; "> I'm a developer turned designer, driven by a deep passion for creating accessible, aesthetically pleasing, and meaningful experiences that people truly enjoy engaging with.
+    <span  style=" color: #333333; font-size: 20px; font-weight:400; list-style-type: square; "> I'm a developer turned designer, driven by a deep passion for creating accessible, aesthetically pleasing, and meaningful experiences that people truly enjoy engaging with.
     
     </br> </br>
 
  
 
-    
      
       I specialize in design systems, interaction design, usability testing & front-end development of mobile & web applications. 
       I enjoy designing & developing games & virtual reality applications as well.
@@ -155,7 +154,7 @@ background-position: center;">
   </div> 
  
 <span > <a  href="images\res.pdf" target="_blank" download="res.pdf" class="iconabout">  
- <Button class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:none; margin:0px 8px 0px 0px; padding:3px 16px 7px 16px;background-color: black !important;">  Resume  </Button>
+ <Button   class="button11" style="color: white; border-width: 0.6px;border-style:solid; border-radius:6px; border-color:none; margin:0px 8px 0px 0px; padding:3px 16px 7px 16px;background-color: black !important;">  Resume  </Button>
     
     </a>
  
@@ -173,10 +172,10 @@ background-position: center;">
 
 </div>
 
- <div class="col-md-5 col-lg-5 col-sm-5" style="z-index: 200;">
+ <div id="index" class="col-md-5 col-lg-5 col-sm-12" style="z-index: 200;">
 
 
-  <img class="img-fluid" alt="Responsive image" src="images/landing.png" style="margin-top:5px; margin-left: 50px; height: 100%; width: 115%;">
+  <img class="img-fluid" alt="Responsive image" src="images/landing.png" style="position: relative; margin-top:20px; margin-left: 40px; height: 100%; max-width: 120% !important;">
 </div> 
 
 
@@ -184,7 +183,7 @@ background-position: center;">
 </div>
 
 
-<div style="padding: 20px;"></div>
+<div style="padding: 30px;"></div>
 
 
 </div>
@@ -196,11 +195,11 @@ background-position: center;">
 
 
 
-  <div class="container-fluid" style="background: #f9f9f9 !important; padding:40px 0px 40px 0px; z-index:500!important; ">
+  <div class="container-fluid"  style="background: #f9f9f9 !important; padding:40px 0px 40px 0px; z-index:999999999999999900000000000000000 !important;  z-index: 999999 !important;  " >
   <div class="container"  >
 
 
-    <div class="row">
+    <div  class="row">
 
       <div style=" z-index: 35">
         <span style=" color: #333333; font-size: 42px; font-weight:700"> My Work</span>
@@ -277,7 +276,7 @@ background-position: center;">
 
 
 
-          <a  data-toggle="modal" data-target="#exampleModal" id="button22" >
+          <a  href="#" data-toggle="modal" data-target="#exampleModal"  >
           <div class="col-md-11 pl-0 pr-0">    
           
              <div class="newcontainer">
@@ -408,6 +407,7 @@ background-position: center;">
   </div>
 
 
+  <!--
 <div style="z-index: -1;"> <ul class="circles">
                <li></li>
                <li></li>
@@ -422,8 +422,34 @@ background-position: center;">
     </ul> </div>
 
 </div>
+ -->
+<section class="sticky">
+  <div class="bubbles">
+      <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
 
-
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+  </div>
+</section>
 
 </body>
 
