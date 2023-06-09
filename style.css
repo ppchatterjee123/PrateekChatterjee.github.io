@@ -184,7 +184,19 @@ border-style: none !important;
 
 /*  landing image specs  */
 
+/*
+@media  screen 
+and (max-width: 414px) {
 
+  #bg  {  
+    background-image: none !important;
+    background-color: #0f3566 !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+  }
+*/
 
 
 @media  screen 
@@ -565,13 +577,13 @@ background: radial-gradient(circle at bottom, #1559b3, #1559b3 10%, #739bcf 80%,
       30%{
         transform:translate(-50);
         opacity: 0.2;
-        border-radius: 46%;
+        border-radius: 48%;
       }
       70%{
 
         transform:translateY(0) rotate(360deg);
         opacity: 0.1;
-        border-radius: 46%;
+        border-radius: 50%;
      
       }
 
@@ -640,9 +652,11 @@ background: radial-gradient(circle at bottom, #1559b3, #1559b3 10%, #739bcf 80%,
 
 
 
-
-
-
+/*
+.container {
+max-width: 1200px !important;
+}
+*/
 
 
 #myBtn {
@@ -672,4 +686,33 @@ background: radial-gradient(circle at bottom, #1559b3, #1559b3 10%, #739bcf 80%,
 
 
 
-   
+
+
+.slide-content {
+  margin: 8px;
+  width: 250px;
+  height: 140px;
+  background-color: lightgray;
+border: none !important;
+  overflow: hidden;
+  position: relative;
+}
+#img2 {
+  width: 100%;
+  border: none !important;
+}
+.slid-er {
+  height: 156px; /* slide-content height + 2*margin */
+  margin: auto;
+  border: none !important;
+  overflow: hidden;
+  width: 100%;
+}
+.slid-er .slides {
+  display: flex;
+}
+.slid-er .slide {
+  width: 258px; /* slide-content width + margin */
+  border: none !important;
+}
+
